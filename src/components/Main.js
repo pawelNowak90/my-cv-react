@@ -18,7 +18,7 @@ const Main = () => {
     // }
     return ( 
         <main>            
-            {headersPL.map((li,index) => <Section header={headersPL[index]} key={`sections-${index}`} />)}
+            {headersPL.map((li,index) => <Section header={headersPL[index]} number={index} key={`sections-${index}`} />)}
         </main>
         
      );
