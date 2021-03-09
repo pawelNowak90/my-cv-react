@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 // import { Nav, NavList } from './compo';
-import { Drawer } from '@material-ui/core';
+import Drawer from '../drawerUI/Drawer';
+import Button from '@material-ui/core/Button';
 
 const Header = () => {
+    const [menuVisible, setVisible] = useState(
+        false
+    );
+
+
     return ( 
         <header>
-            <h1>No to jest Header komponent</h1>
             <Drawer/>
+            <Button onClick={ () => setVisible(!menuVisible )}> Wylacz Menu </Button>
         </header>
      );
 }

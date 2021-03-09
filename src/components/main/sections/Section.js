@@ -1,14 +1,14 @@
 import React from 'react';
 import './Section.css';
-import { H1 } from '../utils';
-
+import { H1 } from '../../utils';
+// import '@csstools/normalize.css';
 import { Button } from '@material-ui/core';
 import styled from 'styled-components'
 
 const SectionWrapper = styled.section`
 overflow: hidden;
 height:50vh;
-margin:10px;
+margin:0;
 background-color: #777;
 
 @media (max-width: 991px) {

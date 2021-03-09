@@ -1,8 +1,8 @@
 import React from 'react';
-import H1 from '../utils/H1';
+import H1 from '../../utils/H1';
 import './Section.css';
 import styled from 'styled-components';
-import banner from '../../img/pawel-gory.jpg';
+import banner from '../../../img/pawel-gory.jpg';
 
 const SectionBannerWrapper = styled.section`
 position: relative;
